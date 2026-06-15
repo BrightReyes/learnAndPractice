@@ -481,7 +481,7 @@ OOP is a programming style that organizes code around objects: data plus behavio
 
 A class defines the structure. An object is an instance created in memory. Methods operate on object data.
 
-```text
+```text 
 Class blueprint -> Object in memory -> Properties + methods
 ```
 
