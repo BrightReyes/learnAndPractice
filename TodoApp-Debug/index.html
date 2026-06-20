@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Task Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Task Tracker</h1>
+        <div class="input-section">
+            <input type="text" id="taskInput" placeholder="Add a new task...">
+            <!-- Note: Intentionally left like this for the bug hunt -->
+            <button id="addBtn">Add Task</button>
+        </div>
+        <ul id="taskList">
+            <!-- Example existing task -->
+            <li>
+                <span class="task-text">Onboard new employee</span>
+                <button class="delete-btn">Delete</button>
+            </li>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
